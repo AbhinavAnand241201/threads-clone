@@ -1,32 +1,34 @@
-# 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
+# MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io
 
-![Demo App](https://i.ibb.co/BnGdh10/Group-62.png)
+![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
 
-[Video Tutorial on Youtube](https://youtu.be/G4V4xO9wyD8)
+[Video Tutorial on Youtube](https://youtu.be/4GUVz2psWUg)
 
-Feature List:
+Some Features:
 
--   🌟 Tech stack: MERN + Socket.io + Chakra UI
--   🎃 Authentication & Authorization with JWT
--   📝 Create Post
--   🗑️ Delete Post
--   ❤️ Like/Unlike Post
--   💬 Comment to a Post
--   👥 Follow/Unfollow Users
--   ❄️ Freeze Your Account
--   🌓 Dark/Light Mode
--   📱 Completely Responsive
--   💬 Chat App With Image Support
--   👀 Seen/Unseen Status for Messages
--   🔊 Notification sounds
--   ⭐ Deployment for FREE
+-   ⚛️ Tech Stack: React.js, MongoDB, Node.js, Express, Tailwind
+-   🔐 Authentication with JSONWEBTOKENS (JWT)
+-   🔥 React Query for Data Fetching, Caching etc.
+-   👥 Suggested Users to Follow
+-   ✍️ Creating Posts
+-   🗑️ Deleting Posts
+-   💬 Commenting on Posts
+-   ❤️ Liking Posts
+-   🔒 Delete Posts (if you are the owner)
+-   📝 Edit Profile Info
+-   🖼️ Edit Cover Image and Profile Image
+-   📷 Image Uploads using Cloudinary
+-   🔔 Send Notifications
+-   🌐 Deployment
+-   ⏳ And much more!
 
 ### Setup .env file
 
 ```js
+MONGO_URI=
 PORT=...
-MONGO_URI=...
 JWT_SECRET=...
+NODE_ENV=...
 CLOUDINARY_CLOUD_NAME=...
 CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
